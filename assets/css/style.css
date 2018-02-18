@@ -1,13 +1,13 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #777777;
+	color: #403D3B;
 	font-size: 14px;
 	margin: 0 auto;
 	background-color: .5s;
 }
 
 a, a:link, a:active, a:visited{
-	color: #4aaaa5;
+	color: #95C8A9;
 	text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ a, a:link, a:active, a:visited{
 }
 
 .random-recipe-title {
-	color: #4aaaa5;
+	color: #6C343C;
 	font-size: 300%;
 	line-height: 100%;
 	font-weight: 900;
@@ -26,7 +26,7 @@ a, a:link, a:active, a:visited{
 
 
 .recipe-title{
-	color: #4aaaa5;
+	color: #569EC1;
 	font-size: 250%;
 	font-weight: 900;
     margin: 0 auto;
@@ -40,8 +40,8 @@ a, a:link, a:active, a:visited{
 }
 
 header, .navbar-default { 
-    background-color: #777777;
-	border-bottom: 1px solid #777777;
+    background-color: #3D7D80;
+	border-bottom: 1px solid #3D7D80;
 	-webkit-box-shadow: 1px 5px 11px -5px rgba(51,51,51,1);
 	-moz-box-shadow: 1px 5px 11px -5px rgba(51,51,51,1);
 	box-shadow: 1px 5px 11px -5px rgba(51,51,51,1);
@@ -63,38 +63,14 @@ header, .navbar-default {
 	float: left;
 }
 
-.container-logo{
-	float: right;
-}
-
-
 a.hamburger-menu{
-    font-size: 250%;
     color: #ffffff;
 }
 
 a.hamburger-menu:hover {
-	font-size: 260%;
-	color: #4aaaa5;
+	color: #403D3B;
 }
 
-a.navbar-brand.logo {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-decoration: none;
-	background-color: #4aaaa5; 
-	color: #ffffff; 
-	margin: 0px 10px 0px 10px;
-	-webkit-box-shadow: 0px 5px 7px -5px rgba(74,170,165,1);
-	-moz-box-shadow: 0px 5px 7px -5px rgba(74,170,165,1);
-	box-shadow: 0px 5px 7px -5px rgba(74,170,165,1);
-}
-	
-a.navbar-brand.logo:hover {
-	background-color: #dddddd;
-	color: #4aaaa5; 
-}
-
-/* NAV */
 .sidenav {
     height: 100%;
 	width: 0;
@@ -102,10 +78,10 @@ a.navbar-brand.logo:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #323232;
+    background-color: #403D3B;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 2%;	
+	padding-top: 2%;	
 }
 
 #list {
@@ -127,6 +103,8 @@ a.navbar-brand.logo:hover {
 .sidenav .closebtn {
 	font-size: 190%;
 	margin-left: 5%;
+	color: #95C8A9;
+	
 }
 
 
@@ -161,16 +139,16 @@ a.navbar-brand.logo:hover {
 	padding: 3.9%;
 }
 
-/* .change-recipes{
-	border-radius: 10px;
-	margin: 0 auto;
-} */
 #randomButton{
 	font-size: 150%;
 	padding: 2%;
 	text-align: center;
 	float: none;
 	display: inline-block;
+}
+
+#menu {
+	font-size: 200%;
 }
 
 .main-content, .main-content > div[class*='col-'] {
@@ -278,7 +256,7 @@ a.navbar-brand.logo:hover {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;}
 		
-#scrolling:hover {background: #4aaaa5; background: rgba(74, 170, 165, 0.5);}
+#scrolling:hover {background: #95C8A9; background: rgba(74, 170, 165, 0.5);}
 #scrolling:hover i {color: #FFFFFF; top: 5px;}	
 
 #scrolling:active {background: none;}
@@ -333,8 +311,8 @@ footer {
 
 .btn-default {
     color: #ffffff;
-    background-color: #efb11c;
-	border: 1px solid #efb11c;
+    background-color: #569EC1;
+	border: 1px solid #569EC1;
 	border-radius: 10px;
 	width: 60%;
     text-align: center;
@@ -344,61 +322,74 @@ footer {
 
 
 .btn-default:hover {
-    color: #4aaaa5;
-    background-color: #f5f5f5;
-	border: 1px solid #4aaaa5;
+    color: #3D7D80;
+    background-color: #F3F1B2;
+	border: 1px solid #3D7D80;
 	border-radius: 10px;
 }
 
+
 .btn-default.focus,
 .btn-default:focus {
-    color: #4aaaa5;
-    background-color: #f5f5f5;
-	border: 1px solid #4aaaa5;
+    color: #95C8A9;
+    background-color: #F3F1B2;
+	border: 1px solid #95C8A9;
 	border-radius: 10px;
 }
 
 .btn-default:active:hover,
 .btn.active, .btn:active {
-	color: #4aaaa5;
+	color: #95C8A9;
 	background-color: #dddddd;
     background-image: none;
     outline: 0;
-	border-color: #4aaaa5;
+	border-color: #95C8A9;
     -webkit-box-shadow: none;
     box-shadow: none;
 	
 }
 
 .btn-default-sm {
-    color: #4aaaa5;
+    color: #95C8A9;
     background-color:#f5f5f5;
-	border: 1px solid #4aaaa5;
+	border: 1px solid #95C8A9;
 	border-radius: 10px;
 	padding: 5%;	
 }
 
 .btn-default-sm:hover {
     color: #ffffff;
-    background-color: #efb11c;
-	border: 1px solid #efb11c;
+    background-color: #F3F1B2;
+	border: 1px solid #F3F1B2;
 	border-radius: 10px;
 }
 
 #displayButton{
-    color: #4aaaa5;
+	color: #95C8A9;
     background-color:#f5f5f5;
-	border: 1px solid #4aaaa5;
+	border: 1px solid #95C8A9;
 	border-radius: 10px;
 	padding: 5%;
 	margin: 0 auto; 
+	font-size: 110%;
 }
 
 #displayButton:hover {
-    color: #ffffff;
-    background-color: #efb11c;
-	border: 1px solid #efb11c;
-	border-radius: 10px;
+	color: #403D3B;
+    background-color: #F3F1B2;
+	border: 1px solid #F3F1B2;
+}
+
+#ingrButton{
+	color: #95C8A9;
+	font-size: 110%;
+}
+
+
+#ingrButton:hover{
+	color: #403D3B;
+    background-color: #F3F1B2;
+	border: 1px solid #F3F1B2;
 }
 	
 #showGroceryList {
@@ -406,18 +397,18 @@ footer {
 	width: 100%;
 	height: 80%;
 	font-size: 200%;
-    background: #4aaaa5;
+    background: #569EC1;
     color: #ffffff;
 	display:block;
 	border-radius: 15px;
-	border: teal; 
+	border: #569EC1; 
 	text-align: center;
 }
 
 #fullGroceryList {
     width: 0px;
 	background: #ffffff;
-	color: #4aaaa5;
+	color: #6C343C;
 	display: none;
 	border-radius: 15px;
 }
@@ -432,6 +423,17 @@ footer {
 	color: #ffffff;
 }
 
+
+a:link {
+	color: #6C343C;
+	font-size: 150%;
+}
+
 #logTitle {
 	color: #ffffff;
+}
+
+#url {
+	color:#6C343C;
+
 }
